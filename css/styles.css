@@ -462,10 +462,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
-.portfolio-cards:hover .payment-cover-text {
+.portfolio-cards:hover {
     transform: translate(0);
-    box-shadow: 
-        0px 1px 6px rgba(46, 47, 66, 0.08),
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 
@@ -575,9 +574,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
     margin-left: 120px;
+    margin-right: 120px;
     padding: 0;
     align-items: baseline;
-    margin-right: 120px;
+    
 }
 .social-media-title {
     font-weight: 500;
@@ -586,6 +586,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    margin-right: 120px;
 }
 .footer-social {
     display: flex;

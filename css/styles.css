@@ -345,7 +345,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 428px;
-    
     width: calc((100% - 72px) / 4);
     padding-left: 0;
     margin: 0;
@@ -526,7 +525,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .section-footer {
     display: flex;
     align-items: baseline;
-    
+    margin-right: 120px;
 }
 
 .container-footer {
@@ -534,7 +533,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 112px;
     margin-right: 120px;
     margin-left: 156px;
-    
 }
 
 .logo {

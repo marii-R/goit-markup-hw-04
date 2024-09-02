@@ -162,7 +162,7 @@ background: #f4f4fd;
 
 /* #region Hero */
 .hero {
-    width: 100%;
+    max-width: 1440px;;
     margin: 0 auto;
     padding: 188px 0;
     background-color: #2e2f42;
